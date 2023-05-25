@@ -52,13 +52,12 @@
   --bs-body-color-rgb: 75, 86, 107;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: "Rubik", sans-serif;
-  --bs-font-Happiness-Sans-Title: 'Happiness-Sans-Title';
-  --bs-font-PyeongChangPeace-Bold: 'PyeongChangPeace-Bold';
-  --bs-font-LOTTERIACHAB: 'LOTTERIACHAB';
-  --bs-font-Ansungtangmyun-Bold: 'Ansungtangmyun-Bold';
-  --bs-font-ONE-Mobile-POP: 'ONE-Mobile-POP';
-  --bs-font-ONE-Mobile-POP: 'NeoDunggeunmoPro-Regular';
-
+  --bs-font-Happiness-Sans-Title: "Happiness-Sans-Title";
+  --bs-font-PyeongChangPeace-Bold: "PyeongChangPeace-Bold";
+  --bs-font-LOTTERIACHAB: "LOTTERIACHAB";
+  --bs-font-Ansungtangmyun-Bold: "Ansungtangmyun-Bold";
+  --bs-font-ONE-Mobile-POP: "ONE-Mobile-POP";
+  --bs-font-ONE-Mobile-POP: "NeoDunggeunmoPro-Regular";
 
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
@@ -67,7 +66,8 @@
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
-  --bs-body-font-family: 'Dovemayo_gothic';
+  --bs-head-font-family: "Dovemayo_gothic";
+  --bs-body-font-family: "SUITE-Regular";
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -81,119 +81,136 @@
 }
 
 @font-face {
-  font-family: 'SUITE-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-    font-family: 'Dovemayo_gothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Dovemayo_gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'KCC-Ganpan';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+  font-family: "KCC-Ganpan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'HANAMDAUM';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/HANAMDAUM.woff2') format('woff2');
+  font-family: "HANAMDAUM";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/HANAMDAUM.woff2")
+    format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ef_chuckchuck';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/ef_chuckchuck.woff2') format('woff2');
+  font-family: "ef_chuckchuck";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/ef_chuckchuck.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Dovemayo_wild';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/Dovemayo_wild.woff2') format('woff2');
+  font-family: "Dovemayo_wild";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/Dovemayo_wild.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'EF_ladio';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_ladio.woff2') format('woff2');
+  font-family: "EF_ladio";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_ladio.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: '양진체';
-  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+  font-family: "양진체";
+  src: url("https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Happiness-Sans-Title';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+  font-family: "Happiness-Sans-Title";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PyeongChangPeace-Bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-family: "PyeongChangPeace-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2")
+    format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'LOTTERIACHAB';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+  font-family: "LOTTERIACHAB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Ansungtangmyun-Bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ansungtangmyun-Bold.woff2') format('woff2');
+  font-family: "Ansungtangmyun-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ansungtangmyun-Bold.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ONE-Mobile-POP';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-family: "ONE-Mobile-POP";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NeoDunggeunmoPro-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+  font-family: "NeoDunggeunmoPro-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'SEBANG_Gothic_Bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+  font-family: "SEBANG_Gothic_Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'BMEuljirooraeorae';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/BMEuljirooraeorae.woff2') format('woff2');
+  font-family: "BMEuljirooraeorae";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/BMEuljirooraeorae.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -232,6 +249,7 @@ h2,
 .h2,
 h1,
 .h1 {
+  font-family: var(--bs-head-font-family);
   margin-top: 0;
   margin-bottom: 0.75rem;
   font-weight: 500;
@@ -574,6 +592,7 @@ progress {
   font-weight: 300;
 }
 .display-1 {
+  font-family: var(--bs-head-font-family);
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 500;
   line-height: 1;
@@ -2988,13 +3007,13 @@ fieldset:disabled .btn {
   opacity: 0.65;
   box-shadow: none;
 }
-.btn-red{
+.btn-red {
   color: #000;
   background-color: #ff0000;
   border-color: #ff0000;
   box-shadow: unset;
 }
-.btn-red:hover{
+.btn-red:hover {
   color: #000;
   background-color: #ff3030;
   border-color: #ff3030;
@@ -7875,8 +7894,8 @@ fieldset:disabled .btn {
   word-wrap: break-word !important;
   word-break: break-word !important;
 }
-.text-red{
-  color:red !important;
+.text-red {
+  color: red !important;
 }
 .text-bur {
   color: #900029 !important;
@@ -17508,7 +17527,7 @@ html:not([dir="rtl"]) .range-slider-ui.noUi-horizontal .noUi-handle {
 }
 
 .bg-gs25 {
-  background-color: #01B0D0;
+  background-color: #01b0d0;
 }
 
 .bg-seven {
@@ -17520,36 +17539,93 @@ html:not([dir="rtl"]) .range-slider-ui.noUi-horizontal .noUi-handle {
 }
 
 .bg-emart24 {
-  background-color: #5B5B60;
+  background-color: #5b5b60;
 }
 
 .font-cu-logo {
-  color: #FFFFFF;
-  text-shadow: -1px 0 #9CC92B, 0 1px #9CC92B, 1px 0 #9CC92B, 0 -1px #9CC92B;
+  color: #ffffff;
+  text-shadow: -1px 0 #9cc92b, 0 1px #9cc92b, 1px 0 #9cc92b, 0 -1px #9cc92b;
 }
 
 .font-gs25-logo {
-  color: #FFFFFF;
-  text-shadow: -1px 0 #FB6819, 0 1px #FB6819, 1px 0 #FB6819, 0 -1px #FB6819;
+  color: #ffffff;
+  text-shadow: -1px 0 #fb6819, 0 1px #fb6819, 1px 0 #fb6819, 0 -1px #fb6819;
 }
 
-
 .font-seven-logo {
-  color: #FFFFFF;
-  text-shadow: -1px 0 #DA4048, 0 1px #DA4048, 1px 0 #DA4048, 0 -1px #DA4048;
+  color: #ffffff;
+  text-shadow: -1px 0 #da4048, 0 1px #da4048, 1px 0 #da4048, 0 -1px #da4048;
 }
 
 .font-ministop-logo {
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: -1px 0 #033892, 0 1px #033892, 1px 0 #033892, 0 -1px #033892;
 }
 
 .font-emart24-logo {
-  color: #FFFFFF;
-  text-shadow: -1px 0 #FEB718, 0 1px #FEB718, 1px 0 #FEB718, 0 -1px #FEB718;
+  color: #ffffff;
+  text-shadow: -1px 0 #feb718, 0 1px #feb718, 1px 0 #feb718, 0 -1px #feb718;
 }
 
-.m-divider{
+.m-divider {
   border-top: 1px;
-  text-shadow: 1px,1px,1px,1px, black;
+  text-shadow: 1px, 1px, 1px, 1px, black;
+}
+
+.text-cu {
+  color: #751385 !important;
+}
+
+.text-gs25 {
+  color: #01b0d0 !important;
+}
+
+.text-seven {
+  color: #008060 !important;
+}
+
+.text-ministop {
+  color: #033892 !important;
+}
+
+.text-emart24 {
+  color: #feb718 !important;
+}
+
+.border-cu {
+  border-color: #751385 !important;
+}
+
+.border-gs25 {
+  border-color: #01b0d0 !important;
+}
+
+.border-seven {
+  border-color: #008060 !important;
+}
+
+.border-ministop {
+  border-color: #033892 !important;
+}
+
+.border-emart24 {
+  border-color: #feb718 !important;
+}
+
+.bg-margin {
+  --bs-bg-opacity: 0.1;
+  background-color: rgba(247, 85, 23, var(--bs-bg-opacity)) !important;
+}
+
+.zoom-effect-wrapper {
+  position: relative;
+  transform: translateZ(0);
+  overflow: hidden;
+}
+.zoom-effect-img {
+  display: block;
+  transition: transform 0.4s ease-in-out;
+}
+.zoom-effect:hover .zoom-effect-img {
+  transform: scale(1.05);
 }
